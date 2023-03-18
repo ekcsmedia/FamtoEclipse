@@ -192,6 +192,11 @@ try {
 		      	    st.setInt(1, id);
 					
 					st.executeUpdate();
+					
+					
+					System.out.println("{" + '\n' + "message:" + "User deleted successfully" + '\n' + "}");
+					
+					
 					con.close();
 					
 				} catch (Exception e) {
